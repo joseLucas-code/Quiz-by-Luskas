@@ -15,7 +15,7 @@ body{
 }
 
 .quiz-container{
-  min-width: 430px;
+  width: 340px;
   background: #171E36;
   color: white;
   padding: 10px 10px 7px 10px;

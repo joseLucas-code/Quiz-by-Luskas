@@ -213,6 +213,7 @@ function results(){
     if(score <= 6){
         quizContainer.style.padding = '15px 15px 5px 15px'
         quizContainer.style.backgroundColor = 'red'
+        quizContainer.style.textAlign = 'center'
         quizContainer.innerHTML = `
         <h2 style="text-align: center;">Parabens seu cocô💩, você acertou 0${score}/${allQuestions.length}</h2>
         <button onclick="window.location.reload()">Recomeçar</button>
@@ -220,6 +221,7 @@ function results(){
     }else if(score >= 7 && score <= 13){
         quizContainer.style.padding = '15px 15px 5px 15px'
         quizContainer.style.color = 'black'
+        quizContainer.style.textAlign = 'center'
         quizContainer.style.backgroundColor = 'yellow'
         if(score < 10){
             quizContainer.innerHTML = `<h2 style="text-align: center;">Parabens 😐🙄, você acertou 0${score}/${allQuestions.length}</h2>
@@ -233,6 +235,7 @@ function results(){
     }else{
         quizContainer.style.padding = '15px 15px 5px 15px'
         quizContainer.style.backgroundColor = 'green'
+        quizContainer.style.textAlign = 'center'
         quizContainer.innerHTML = `
         <h2 style="text-align: center;">Parabens 🥰❤😎, você acertou ${score}/${allQuestions.length}</h2>
         <button onclick="window.location.reload()">Recomeçar</button>
